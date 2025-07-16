@@ -112,4 +112,4 @@ Customer vs. Driver Ratings
 ---
 
 # 🖼 Screenshots / Demo
-<img src = "https://github.com/chaitali9881/Ola-project/blob/main/Ola_Project_screenshot.png">
+<img src = "https://github.com/chaitali9881/Ola-project/blob/main/Ola_Project_screenshot.png" >
