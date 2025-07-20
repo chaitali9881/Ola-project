@@ -114,6 +114,4 @@ Customer vs. Driver Ratings
 # 🖼 Screenshots / Demo
 Screenshots:
 <img src = "https://github.com/chaitali9881/Ola-project/blob/main/Ola_Project_screenshot.png" >
-Demo:
-<video width="320" height="240" controls>
-  <source src ="https://github.com/chaitali9881/Ola-project/blob/main/Ola_project_recording.mp4"> </video>
+
