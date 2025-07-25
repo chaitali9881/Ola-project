@@ -1,6 +1,6 @@
 # 🚖 Ola-project
 
-📌 Project Title / Headline
+# 📌 Project Title / Headline
 
 OLA Rides Dashboard: Real-Time Booking and Performance Tracker
 
@@ -9,14 +9,14 @@ A data-driven and interactive Power BI dashboard for visualizing and analyzing O
 
 ---
 
-📝 Short Description / Purpose
+# 📝 Short Description / Purpose
 
 The OLA Rides Dashboard is designed to provide stakeholders with a holistic view of ride performance, cancellations, and revenue over time. It helps OLA operations, analysts, and decision-makers quickly identify trends, measure business performance, and track customer behavior through intuitive visuals and KPIs.
 
 
 ---
 
-⚙️ Tech Stack
+# ⚙️ Tech Stack
 
 The dashboard was built using the following tools and technologies:
 
@@ -34,7 +34,7 @@ The dashboard was built using the following tools and technologies:
 
 ---
 
-📈 Data Source
+# 📈 Data Source
 
 Internal OLA Dataset (Sample or Simulated)
 
@@ -44,9 +44,9 @@ Contains fields such as: Booking Date, Booking Status, Booking Value, Vehicle Ty
 
 ---
 
-🌟 Features / Highlights
+# 🌟 Features / Highlights
 
-🎯 Business Problem
+#🎯 Business Problem
 
 Ride-hailing platforms like OLA deal with high-volume data that needs quick interpretation for daily operations. There’s a need to monitor booking trends, cancellations, and driver-related issues to optimize the platform’s performance.
 
