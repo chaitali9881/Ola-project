@@ -46,7 +46,7 @@ Contains fields such as: Booking Date, Booking Status, Booking Value, Vehicle Ty
 
 # 🌟 Features / Highlights
 
-#🎯 Business Problem
+🎯 Business Problem
 
 Ride-hailing platforms like OLA deal with high-volume data that needs quick interpretation for daily operations. There’s a need to monitor booking trends, cancellations, and driver-related issues to optimize the platform’s performance.
 
@@ -111,7 +111,7 @@ Ratings.
 
 ---
 
-📊 Business Impact & Insights
+# 📊 Business Impact & Insights
 
 Operations Optimization: Identify high cancellation areas to reduce loss of service.
 
