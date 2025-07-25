@@ -38,8 +38,6 @@ The dashboard was built using the following tools and technologies:
 
 Internal OLA Dataset (Sample or Simulated)
 
-Covers ride data from 1st July 2024 to 30th July 2024.
-
 Contains fields such as: Booking Date, Booking Status, Booking Value, Vehicle Type, Driver ID, Customer ID, and Cancellation Reasons.
 
 
