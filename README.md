@@ -1,83 +1,271 @@
-# 🚗 Ola-project
-🔍 Short Description / Purpose
-The Ola-project is an interactive Power BI report designed to analyze ride data from the Ola platform. It provides deep insights into booking trends, customer behaviors, cancellations, ride distances, payment methods, and vehicle performance. This dashboard helps operations teams, analysts, and decision-makers optimize service quality and user satisfaction.
+# 🚖 Ola-project
+
+📌 Project Title / Headline
+
+OLA Rides Dashboard: Real-Time Booking and Performance Tracker
+
+A data-driven and interactive Power BI dashboard for visualizing and analyzing OLA ride performance across key metrics such as booking count, revenue, cancellations, and ride trends for the selected month.
+
 
 ---
 
-# 🛠 Tech Stack
+📝 Short Description / Purpose
+
+The OLA Rides Dashboard is designed to provide stakeholders with a holistic view of ride performance, cancellations, and revenue over time. It helps OLA operations, analysts, and decision-makers quickly identify trends, measure business performance, and track customer behavior through intuitive visuals and KPIs.
+
+
+---
+
+⚙️ Tech Stack
+
 The dashboard was built using the following tools and technologies:
 
----
+📊 Power BI Desktop – Primary tool for dashboard creation and data visualization.
 
-📊 Power BI Desktop – For creating dynamic and interactive visuals.
-🧹 Power Query – Used to clean, filter, and transform raw ride data.
-🧠 DAX (Data Analysis Expressions) – For calculating custom metrics like average ratings, total booking value, and segmentation filters.
-🏗 Data Modeling – Relationships and calculated columns were established to ensure seamless cross-filtering and aggregation.
-🗃 SQL (MySQL Views) – Used for pre-aggregating and optimizing complex queries on booking behavior before loading into Power BI.
+📂 Power Query Editor – Used to clean, filter, and transform raw booking data.
 
----
+🧠 DAX (Data Analysis Expressions) – Used to calculate KPIs, filter metrics dynamically, and enhance data interactivity.
 
-# 📦 Data Source
-File: Bookings.csv containing raw ride-level data from the Ola platform.
-Database: MySQL (views defined in ola.sql) for logic-based querying and aggregations.
-Fields Used: Customer ID, Booking ID, Booking Status, Vehicle Type, Driver/Customer Ratings, Payment Method, Ride Distance, Incomplete Rides, Canceled Reasons, Booking Value.
+🔗 Data Modeling – Logical relationships between booking data, status codes, vehicle types, and revenue sources.
+
+📁 File Format – .pbix for development and .png for visual previews.
+
+
 
 ---
 
-# 🌟 Features / Highlights
-📈 Business Problem
-Ola generates large volumes of ride data daily, yet operations teams struggle to derive actionable insights due to scattered raw data. Understanding:
-Why rides get canceled?
-Which vehicle types perform best?
-Who are the most loyal customers?
-How do payment methods affect completion rates? … are all key for decision-making and improvement.
+📈 Data Source
+
+Internal OLA Dataset (Sample or Simulated)
+
+Covers ride data from 1st July 2024 to 30th July 2024.
+
+Contains fields such as: Booking Date, Booking Status, Booking Value, Vehicle Type, Driver ID, Customer ID, and Cancellation Reasons.
+
+
 
 ---
 
-# Identified the reason and trend for ride cancellation.                                        
-•	Process : Cleaned and processed the data from multiple sources, applied SQL queries, visualized the trend using Power BI 
-•	Results : Reduced the cancellation rate by 10% by implementing new strategy. 
+🌟 Features / Highlights
+
+🎯 Business Problem
+
+Ride-hailing platforms like OLA deal with high-volume data that needs quick interpretation for daily operations. There’s a need to monitor booking trends, cancellations, and driver-related issues to optimize the platform’s performance.
+
+🎯 Goal of the Dashboard
+
+To provide a one-screen, actionable view of:
+
+Booking trends
+
+Cancellation breakdown
+
+Revenue tracking
+
+Real-time operations performance
+
+
+🔍 Walkthrough of Key Visuals
+
+1. Date Slicer (Top Center)
+Allows users to dynamically select a date range to view metrics for a specific period.
+
+
+2. KPIs (Top Left Panel)
+
+Total Booking: 20,407
+
+Total Booking Value: 7M INR
+
+
+
+3. Booking Status Breakdown (Top Right - Pie Chart)
+Breakdown of ride statuses:
+
+Success: 12.65K (62%)
+
+Canceled by Customer: 3.65K (17.91%)
+
+Canceled by Driver: 2.08K (10.2%)
+
+Driver Not Found: 2.02K (9.9%)
+
+
+
+4. Ride Value Over Time (Bottom - Line Chart)
+Tracks daily booking counts, indicating peak and low-demand days across July 2024.
+
+
+5. Navigation Panel (Left Sidebar)
+Allows access to additional dashboards:
+
+Vehicle Type
+
+Revenue
+
+Cancellation
+
+Ratings
+
+
+
+
 
 ---
 
-# 🎯 Goal of the Dashboard
-To provide a visual solution that:
-Tracks key metrics such as booking success, cancellations, customer and driver ratings.
-Highlights customer behavior by ride frequency and payment preferences.
-Aids in identifying performance issues (e.g., vehicle reliability, cancellation reasons).
-Enables data-driven operational and strategic decisions.
+📊 Business Impact & Insights
+
+Operations Optimization: Identify high cancellation areas to reduce loss of service.
+
+Customer Satisfaction: Address frequent "Driver Not Found" scenarios.
+
+Revenue Tracking: Evaluate performance based on booking value over time.
+
+Strategic Planning: Improve driver allocation during low-demand days and increase availability on high-demand dates.
+
+
 
 ---
 
-# 🧭 Walkthrough of Key Visuals
-KPIs (Top Cards):
+📸 Screenshots / Demos
 
-✅ Total Successful Bookings
-❌ Canceled by Customer / Driver
-💵 Total Booking Value (only for successful rides)
-🏁 Incomplete Rides
-⭐ Average Driver & Customer Ratings
-🚗 Top 5 Most Booked Vehicle Types
-Ride Status Breakdown (Pie/Donut Chart) A visual split of ride statuses: success, canceled (by whom), and incomplete.
 
-Top 5 Customers by Ride Volume (Bar Chart) Displays the most loyal users based on number of rides.
+(Already included above)
 
-Average Ride Distance per Vehicle Type (Column Chart) Compare how far vehicles typically travel.
-
-Rating Trends (Dual Line or Scatter Plot) Shows variation in Customer vs. Driver Ratings across vehicle types.
-
-Cancellation Reasons (Bar or Tree Map) Summarizes why drivers or customers cancel rides (e.g., "Personal & Car Issues").
-
-Payment Method Analysis (Stacked Bar) Understand preferences: UPI vs. Cash vs. Card, etc.
 
 ---
 
-# 💼 Business Impact & Insights
-Customer Retention: Identifying top users allows for personalized offers and loyalty rewards.
-Operational Efficiency: High cancellations or low ratings for specific vehicle types can trigger maintenance or training.
-Revenue Optimization: Analysis of ride value and distance helps improve fare strategy.
-Payment Behavior: Understanding payment method success rates helps reduce friction in ride completions.
-Service Quality: Feedback via ratings reveals gaps in service from both driver and customer perspectives.
+Let me know if you'd like this in PDF format or as a Power BI report description for portfolio uploadHere's a professional write-up based on your OLA Booking Analysis Dashboard. You can use this for your LinkedIn post, portfolio, or project documentation.
+
+
+---
+
+🚖 OLA Booking Insights Dashboard
+
+📌 Project Title / Headline
+
+OLA Rides Dashboard: Real-Time Booking and Performance Tracker
+
+A data-driven and interactive Power BI dashboard for visualizing and analyzing OLA ride performance across key metrics such as booking count, revenue, cancellations, and ride trends for the selected month.
+
+
+---
+
+📝 Short Description / Purpose
+
+The OLA Rides Dashboard is designed to provide stakeholders with a holistic view of ride performance, cancellations, and revenue over time. It helps OLA operations, analysts, and decision-makers quickly identify trends, measure business performance, and track customer behavior through intuitive visuals and KPIs.
+
+
+---
+
+⚙️ Tech Stack
+
+The dashboard was built using the following tools and technologies:
+
+📊 Power BI Desktop – Primary tool for dashboard creation and data visualization.
+
+📂 Power Query Editor – Used to clean, filter, and transform raw booking data.
+
+🧠 DAX (Data Analysis Expressions) – Used to calculate KPIs, filter metrics dynamically, and enhance data interactivity.
+
+🔗 Data Modeling – Logical relationships between booking data, status codes, vehicle types, and revenue sources.
+
+📁 File Format – .pbix for development and .png for visual previews.
+
+
+
+---
+
+📈 Data Source
+
+Internal OLA Dataset (Sample or Simulated)
+
+Covers ride data from 1st July 2024 to 30th July 2024.
+
+Contains fields such as: Booking Date, Booking Status, Booking Value, Vehicle Type, Driver ID, Customer ID, and Cancellation Reasons.
+
+
+
+---
+
+🌟 Features / Highlights
+
+🎯 Business Problem
+
+Ride-hailing platforms like OLA deal with high-volume data that needs quick interpretation for daily operations. There’s a need to monitor booking trends, cancellations, and driver-related issues to optimize the platform’s performance.
+
+🎯 Goal of the Dashboard
+
+To provide a one-screen, actionable view of:
+
+Booking trends
+
+Cancellation breakdown
+
+Revenue tracking
+
+Real-time operations performance
+
+
+🔍 Walkthrough of Key Visuals
+
+1. Date Slicer (Top Center)
+Allows users to dynamically select a date range to view metrics for a specific period.
+
+
+2. KPIs (Top Left Panel)
+
+Total Booking: 20,407
+
+Total Booking Value: 7M INR
+
+
+
+3. Booking Status Breakdown (Top Right - Pie Chart)
+Breakdown of ride statuses:
+
+Success: 12.65K (62%)
+
+Canceled by Customer: 3.65K (17.91%)
+
+Canceled by Driver: 2.08K (10.2%)
+
+Driver Not Found: 2.02K (9.9%)
+
+
+
+4. Ride Value Over Time (Bottom - Line Chart)
+Tracks daily booking counts, indicating peak and low-demand days across July 2024.
+
+
+5. Navigation Panel (Left Sidebar)
+Allows access to additional dashboards:
+
+Vehicle Type
+
+Revenue
+
+Cancellation
+
+Ratings
+
+
+
+
+
+---
+
+📊 Business Impact & Insights
+
+Operations Optimization: Identify high cancellation areas to reduce loss of service.
+
+Customer Satisfaction: Address frequent "Driver Not Found" scenarios.
+
+Revenue Tracking: Evaluate performance based on booking value over time.
+
+Strategic Planning: Improve driver allocation during low-demand days and increase availability on high-demand dates.
+
+
 
 ---
 
